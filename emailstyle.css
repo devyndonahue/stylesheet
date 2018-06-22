@@ -414,9 +414,9 @@
 
 
 .head2{
-	max-width: 60%;
+/*	max-width: 60%;
     height: auto;
-    width: auto\9;
+    width: auto\9;*/
     text-align: center;
    	vertical-align: middle;
 }
@@ -430,9 +430,9 @@
 
 
 .shaft2{
-	max-width: 60%;
+	/*max-width: 60%;
     height: auto;
-    width: auto\9;
+    width: auto\9;*/
     text-align: center;
     padding-top: 20%;
     vertical-align: middle;
@@ -445,9 +445,9 @@
 	}
 }
 .grip2{
-	max-width: 60%;
+	/*max-width: 60%;
     height: auto;
-    width: auto\9;
+    width: auto\9;*/
     text-align: center;
     vertical-align: middle;
 }

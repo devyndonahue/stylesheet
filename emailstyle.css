@@ -609,6 +609,7 @@
 
 .row {
   display: flex;
+display: -webkit-flex;
 }
 
 .column {

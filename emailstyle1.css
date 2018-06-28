@@ -26,12 +26,6 @@
 }
 
 
-/*@media screen and (max-width: 720px) {
-	.phone_number_order {
-		margin-left: 10%;
-
-	}
-}*/
 .subheader{
 	font-size: 14px; 
 	font-weight: bold;
@@ -60,6 +54,7 @@
 	table-layout: fixed;
 	white-space: nowrap;
 	border-bottom: 1px solid #D7D7D7;
+	border-top: 1px solid #D7D7D7;
 }
 
 .order_detail{
@@ -123,19 +118,11 @@
 	background-color: #F7F7F7;
 	width: 60%;
 }
-@media screen and (max-width: 1340px) {
+@media screen and (max-width:1464px) {
 	.background {
-		width: 50%;
-
-	}
-}
-
-@media screen and (max-width: 911px) {
-	.background {
-		width: 40%;
+		width: 250px;
 		margin-left: 30%;
 		text-align: center;
-
 	}
 }
 
@@ -208,17 +195,16 @@
 	font-style: italic;
 	white-space: nowrap;
 }
-
-.italic{
-	font-style: italic;
-}
-
 @media only screen and (max-width: 575px) {
     .italic_size {
         text-align: left;
         margin-right: 15px;
     
     }
+}
+
+.italic{
+	font-style: italic;
 }
 
 .footer{
@@ -251,8 +237,7 @@
 }
 
 .price{
-/*	margin-left: 10px;
-*/	vertical-align: top;
+	vertical-align: top;
 	display: inline-block;
 	text-align:right;
 }
@@ -362,12 +347,6 @@
 
 }
 
-/*@media only screen and (max-width: 1400px) {
-    .order_type_heads {
-        width: 100%;
-    }
-}*/
-
 .base_product_margin{
 	padding-top: 20px;
 	color: #2979FF;
@@ -414,9 +393,9 @@
 
 
 .head2{
-/*	max-width: 60%;
+	max-width: 60%;
     height: auto;
-    width: auto\9;*/
+    width: auto\9;
     text-align: center;
    	vertical-align: middle;
 }
@@ -430,9 +409,9 @@
 
 
 .shaft2{
-	/*max-width: 60%;
+	max-width: 60%;
     height: auto;
-    width: auto\9;*/
+    width: auto\9;
     text-align: center;
     padding-top: 20%;
     vertical-align: middle;
@@ -445,9 +424,9 @@
 	}
 }
 .grip2{
-	/*max-width: 60%;
+	max-width: 60%;
     height: auto;
-    width: auto\9;*/
+    width: auto\9;
     text-align: center;
     vertical-align: middle;
 }
@@ -461,11 +440,11 @@
 	max-width: 100%;
     height: auto;
     width: auto\9;
-    text-align: center;
+   	vertical-align: middle;
 
 }
 
-@media screen and (max-width: 633) {
+@media screen and (max-width: 1464px) {
 	.head {
 		display: none;
 
@@ -477,8 +456,10 @@
     height: auto;
     width: auto\9;
     text-align: center;
+    padding-top: 25%;
+    vertical-align: middle;
 }
-@media screen and (max-width: 633) {
+@media screen and (max-width: 1464px) {
 	.shaft {
 		display: none;
 
@@ -489,8 +470,10 @@
     height: auto;
     width: auto\9;
     text-align: center;
+    vertical-align: middle;
+    padding-top: 10%;
 }
-@media screen and (max-width: 633) {
+@media screen and (max-width: 1464px) {
 	.grip {
 		display: none;
 
@@ -521,19 +504,18 @@
 	 margin-right: 15%;
 	 position: sticky;
 	 position: -webkit-sticky;
-	 background-color: #F1F2F2;
 }
 
 @media screen and (max-width: 1570px) {
 	.order_table {
-		width:350px;
+		width:300px;
 		margin-right: 50%;
 		margin-top: 25px;
 		margin-left: 30%;
 	}
 }
 
-/*@media screen and (max-width: 1225px) {
+@media screen and (max-width: 1225px) {
 	.order_table {
 		margin-right: 53%;
 		margin-top: 25px;
@@ -541,22 +523,22 @@
 		left: 5%;
 	}
 }
-
-@media screen and (max-width: 1039px) {
+@media screen and (max-width: 1000px) {
 	.order_table {
 		margin-right: 53%;
 		margin-top: 25px;
 		position: relative;
-		left: %;
+		left: 15%;
 	}
 }
-/*@media screen and (max-width: 626px) {
+@media screen and (max-width: 600px) {
 	.order_table {
-		float: none;
+		margin-right: 53%;
 		margin-top: 25px;
-		margin-left: 30%;
+		position: relative;
+		left: 35%;
 	}
-}*/
+}
 
 .order_top{
 	display: inline-block;
@@ -625,9 +607,9 @@ display: -webkit-flex;
 	vertical-align: top;
 }
 
-@media screen and (max-width: 1085px) {
+@media screen and (max-width: 1464px) {
 	.head_description {
-		margin-left: 5px;
+		padding-left: 0px;
 	}
 }
 
@@ -638,9 +620,9 @@ display: -webkit-flex;
 	vertical-align: top;
 }
 
-@media screen and (max-width: 1085px) {
+@media screen and (max-width: 1464px) {
 	.shaft_description {
-		margin-left: 5px;
+		margin-left: 0px;
 	}
 }
 
@@ -670,21 +652,16 @@ display: -webkit-flex;
 	}
 }
 
-@media screen and (max-width: 1085px) {
-	.shaft_description {
-		margin-left: 5px;
-	}
-}
 .grip_description{
 	display: inline-block;
 	text-align: center;
-	margin-left: 12%;
+	margin-left: 8%;
 	vertical-align: top;
 }
 
-@media screen and (max-width: 1545px) {
+@media screen and (max-width: 1464px) {
 	.grip_description {
-		margin-left: 5px;
+		margin-left: 0px;
 	}
 }
 
@@ -721,18 +698,5 @@ display: -webkit-flex;
 @media screen and (max-width: 1570px) {
 	.padding{
 		padding-left: 25px;
+	}
 }
-}
-
-
-/*<!--[if mso]>
- .styling{
- 	text-align: center;
- 	width: 200px;
- 	vertical-align: middle;
- }
-
- .display{
- 	display:none;
- }
-<![endif]-->*/
